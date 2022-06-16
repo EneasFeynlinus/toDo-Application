@@ -1,0 +1,45 @@
+body {
+  background-image: url(images/oldClock-650.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.7);
+  max-width: 400px;
+}
+
+.todos-container li {
+  background: #484E53;
+}
+
+i[data-trash] {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.clock-container {
+  font-size: 4em;
+  text-align: center;
+  margin: 20% auto;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock-container span {
+  background: #d9b38c;
+  border-radius: 15px;
+}
