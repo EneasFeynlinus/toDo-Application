@@ -27,7 +27,7 @@ i[data-trash] {
   cursor: pointer;
 }
 
-.hidden {
+.hide {
   display: none;
 }
 
